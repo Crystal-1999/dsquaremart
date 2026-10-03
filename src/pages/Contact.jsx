@@ -104,8 +104,10 @@ const Contact = () => {
             icon: <Mail className="w-8 h-8 md:w-10 md:h-10" />,
             title: "Email Us",
             text: "Our digital support team is available to assist you.",
-            link: "mailto:crystalinfohub@gmail.com",
-            linkLabel: "crystalinfohub@gmail.com"
+            link: "mailto:info@crystalinfotech.com",
+            linkLabel: "info@crystalinfotech.com",
+            link2: "mailto:crystalinfohub@gmail.com",
+            linkLabel2: "crystalinfohub@gmail.com"
         },
         {
             icon: <Globe className="w-8 h-8 md:w-10 md:h-10" />,
@@ -199,14 +201,26 @@ const Contact = () => {
                                             ))}
                                         </div>
                                     ) : (
-                                        <a
-                                            href={item.link}
-                                            className="inline-flex items-center text-base md:text-lg font-black text-primary hover:text-primary transition-all duration-300 break-all mt-auto group/link relative"
-                                            {...(item.isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                                        >
-                                            <span className="relative z-10 transition-transform duration-300 group-hover/link:tracking-wider">{item.linkLabel}</span>
-                                            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover/link:w-full"></span>
-                                        </a>
+                                        <div className="mt-auto flex flex-col items-center gap-2 w-full">
+                                            <a
+                                                href={item.link}
+                                                className="inline-flex items-center text-base md:text-[15px] font-black text-primary hover:text-primary transition-all duration-300 break-all group/link relative"
+                                                {...(item.isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                                            >
+                                                <span className="relative z-10 transition-transform duration-300 group-hover/link:tracking-wider">{item.linkLabel}</span>
+                                                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover/link:w-full"></span>
+                                            </a>
+                                            {item.link2 && (
+                                                <a
+                                                    href={item.link2}
+                                                    className="inline-flex items-center text-base md:text-[15px] font-black text-primary hover:text-primary transition-all duration-300 break-all group/link relative"
+                                                    {...(item.isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                                                >
+                                                    <span className="relative z-10 transition-transform duration-300 group-hover/link:tracking-wider">{item.linkLabel2}</span>
+                                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover/link:w-full"></span>
+                                                </a>
+                                            )}
+                                        </div>
                                     )}
                                 </div>
                             </Reveal>

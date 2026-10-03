@@ -89,7 +89,10 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Email reaching</p>
-                                    <a href="mailto:crystalinfohub@gmail.com" className="text-gray-400 font-bold text-sm hover:text-primary transition-colors">
+                                    <a href="mailto:info@crystalinfotech.com" className="text-gray-400 font-bold text-sm hover:text-primary transition-colors block mb-1">
+                                        info@crystalinfotech.com
+                                    </a>
+                                    <a href="mailto:crystalinfohub@gmail.com" className="text-gray-400 font-bold text-sm hover:text-primary transition-colors block">
                                         crystalinfohub@gmail.com
                                     </a>
                                 </div>
