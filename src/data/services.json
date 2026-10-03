@@ -1,0 +1,562 @@
+{
+    "services": [
+        {
+            "slug": "web-development",
+            "icon": "Layout",
+            "title": "Web Development",
+            "description": "High-performance, scalable websites and web applications built with the latest technologies like React, Next.js, and Node.js.",
+            "longDescription": "Our web development process focuses on creating seamless digital experiences. We leverage modern frameworks like React and Next.js to ensure lightning-fast performance and SEO-friendly architectures. Our backend solutions using Node.js or Laravel provide the robust core needed for high-traffic applications.",
+            "featuresList": [
+                "Custom Web Apps",
+                "E-commerce Solutions",
+                "CMS Integration",
+                "Web Optimization"
+            ],
+            "features": [
+                {
+                    "title": "Custom Web Applications",
+                    "desc": "Tailored software solutions built for specific business workflows."
+                },
+                {
+                    "title": "E-commerce Platforms",
+                    "desc": "Secure, high-converting online stores with integrated payment gateways."
+                },
+                {
+                    "title": "Progressive Web Apps (PWA)",
+                    "desc": "Web applications that feel like native mobile apps."
+                },
+                {
+                    "title": "Enterprise Grade Portals",
+                    "desc": "Complex systems for internal operations and client management."
+                }
+            ],
+            "color": "blue",
+            "benefits": [
+                "Lightning-fast load speeds for better user retention",
+                "SEO-optimized architecture for higher search rankings",
+                "Scalable infrastructure that grows with your business",
+                "Responsive designs that work perfectly on all devices"
+            ],
+            "techStack": [
+                {
+                    "name": "React",
+                    "icon": "/tech_stack/react.svg"
+                },
+                {
+                    "name": "Next.js",
+                    "icon": "/tech_stack/nextjs.svg"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "/tech_stack/nodejs.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "/tech_stack/tailwindcss.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "/tech_stack/mongodb.svg"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": "/tech_stack/postgresql.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "Architecture Design",
+                    "desc": "Planning the data flow and system structure."
+                },
+                {
+                    "title": "Frontend Development",
+                    "desc": "Building the visual elements and user interaction."
+                },
+                {
+                    "title": "API Integration",
+                    "desc": "Connecting backend services and third-party tools."
+                },
+                {
+                    "title": "Performance Tuning",
+                    "desc": "Optimizing code and assets for speed."
+                }
+            ]
+        },
+        {
+            "slug": "mobile-app-development",
+            "icon": "Smartphone",
+            "title": "Mobile App Development",
+            "description": "Intuitive and powerful mobile experiences for iOS and Android using Flutter, Dart, and native technologies.",
+            "longDescription": "Our mobile development team excels at creating cross-platform and native apps. Using Flutter and Dart, we deliver high-performance applications with a single codebase, reducing time-to-market without compromising on quality or performance.",
+            "featuresList": [
+                "Cross-platform Apps",
+                "Native iOS/Android",
+                "App UI/UX Design",
+                "App Maintenance"
+            ],
+            "features": [
+                {
+                    "title": "iOS & Android Apps",
+                    "desc": "Comprehensive mobile solutions for the world's leading platforms."
+                },
+                {
+                    "title": "Cross-Platform Flutter Apps",
+                    "desc": "Cost-effective development with native-level performance."
+                },
+                {
+                    "title": "Real-time Functionality",
+                    "desc": "Apps with live updates, messaging, and push notifications."
+                },
+                {
+                    "title": "Offline Capabilities",
+                    "desc": "Robust apps that function flawlessly even without internet."
+                }
+            ],
+            "color": "blue",
+            "benefits": [
+                "Consistent user experience across all platforms",
+                "Faster development cycles and lower costs",
+                "Direct engagement with customers via push notifications",
+                "Access to native device features (Camera, GPS, etc.)"
+            ],
+            "techStack": [
+                {
+                    "name": "Flutter",
+                    "icon": "/tech_stack/flutter.svg"
+                },
+                {
+                    "name": "Dart",
+                    "icon": "/tech_stack/dart.svg"
+                },
+                {
+                    "name": "Firebase",
+                    "icon": "/tech_stack/firebase.svg"
+                },
+                {
+                    "name": "SQLite",
+                    "icon": "/tech_stack/sqlite.svg"
+                },
+                {
+                    "name": "Android",
+                    "icon": "/tech_stack/android.svg"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "/tech_stack/nodejs.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "UI/UX Prototyping",
+                    "desc": "Designing interactive screens for modern mobile feel."
+                },
+                {
+                    "title": "Cross-Platform Dev",
+                    "desc": "Building the app logic for both iOS and Android."
+                },
+                {
+                    "title": "Device Testing",
+                    "desc": "Verifying performance on actual hardware."
+                },
+                {
+                    "title": "App Store Launch",
+                    "desc": "Managing the deployment to App Store & Play Store."
+                }
+            ]
+        },
+        {
+            "slug": "ui-ux-design",
+            "icon": "Globe",
+            "title": "UI/UX Design",
+            "description": "User-centric design solutions that combine aesthetic beauty with functional excellence for maximum engagement.",
+            "longDescription": "Our design process is data-driven and focused on empathy. We conduct deep user research to understand pain points, then craft wireframes and high-fidelity prototypes that ensure a seamless journey from the first click to conversion.",
+            "featuresList": [
+                "User Research",
+                "Wireframing",
+                "Prototyping",
+                "Visual Design"
+            ],
+            "features": [
+                {
+                    "title": "User Experience Research",
+                    "desc": "Understanding the 'why' behind user behavior."
+                },
+                {
+                    "title": "Interface Design",
+                    "desc": "Creating visually stunning and modern branding."
+                },
+                {
+                    "title": "Interactive Prototypes",
+                    "desc": "Validating ideas before a single line of code is written."
+                },
+                {
+                    "title": "Design Systems",
+                    "desc": "Scalable style guides for consistent brand experience."
+                }
+            ],
+            "color": "indigo",
+            "benefits": [
+                "Increased user engagement and satisfaction",
+                "Higher conversion rates through intuitive flows",
+                "Reduced development costs by catching issues early",
+                "Strong, consistent brand identity across all platforms"
+            ],
+            "techStack": [
+                {
+                    "name": "Figma",
+                    "icon": "/tech_stack/figma.svg"
+                },
+                {
+                    "name": "Adobe XD",
+                    "icon": "/tech_stack/adobexd.avif"
+                },
+                {
+                    "name": "Principle",
+                    "icon": "Layers"
+                },
+                {
+                    "name": "InVision",
+                    "icon": "/tech_stack/Invision.png"
+                },
+                {
+                    "name": "Balsamiq",
+                    "icon": "/tech_stack/balsamiq.png"
+                },
+                {
+                    "name": "Miro",
+                    "icon": "/tech_stack/miro.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "User Persona Mapping",
+                    "desc": "Defining our target audience and their needs."
+                },
+                {
+                    "title": "Wireframing",
+                    "desc": "Low-fidelity blueprints of the app structure."
+                },
+                {
+                    "title": "High-Fidelity UI",
+                    "desc": "Applying colors, typography, and visual polish."
+                },
+                {
+                    "title": "Usability Testing",
+                    "desc": "Getting feedback from real users to iterate."
+                }
+            ]
+        },
+        {
+            "slug": "cloud-solutions",
+            "icon": "Cloud",
+            "title": "Cloud Solutions",
+            "description": "Modernize your infrastructure with secure and scalable cloud services on AWS, Google Cloud, and Azure.",
+            "longDescription": "We help businesses move beyond legacy systems. Whether it's a migration to AWS or setting up a serverless architecture, we ensure your infrastructure is resilient, secure, and ready to handle global traffic spikes.",
+            "featuresList": [
+                "Cloud Migration",
+                "Serverless Architecture",
+                "DevOps Setup",
+                "Security Audits"
+            ],
+            "features": [
+                {
+                    "title": "Cloud Migration",
+                    "desc": "Moving your data and apps to the cloud with zero downtime."
+                },
+                {
+                    "title": "DevOps Automation",
+                    "desc": "CI/CD pipelines for faster and safer deployments."
+                },
+                {
+                    "title": "Serverless Computing",
+                    "desc": "Optimizing costs with event-driven architecture."
+                },
+                {
+                    "title": "Cloud Security",
+                    "desc": "Hardening your infrastructure against cyber threats."
+                }
+            ],
+            "color": "sky",
+            "benefits": [
+                "Significant reduction in hardware maintenance costs",
+                "Automatic scaling to handle traffic fluctuations",
+                "Enhanced security and disaster recovery",
+                "Global reach with low latency for all users"
+            ],
+            "techStack": [
+                {
+                    "name": "AWS",
+                    "icon": "/tech_stack/aws.svg"
+                },
+                {
+                    "name": "Azure",
+                    "icon": "/tech_stack/azure.svg"
+                },
+                {
+                    "name": "Google Cloud",
+                    "icon": "/tech_stack/googlecloud.svg"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "/tech_stack/docker.svg"
+                },
+                {
+                    "name": "Kubernetes",
+                    "icon": "/tech_stack/kubernetes.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "/tech_stack/vercel.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "Infrastructure Audit",
+                    "desc": "Analyzing current systems and identifying gaps."
+                },
+                {
+                    "title": "Migration Roadmap",
+                    "desc": "A phased plan for moving to the cloud."
+                },
+                {
+                    "title": "Cloud Setup",
+                    "desc": "Configuring servers, databases, and networks."
+                },
+                {
+                    "title": "Continuous Monitoring",
+                    "desc": "24/7 oversight of system health and performance."
+                }
+            ]
+        },
+        {
+            "slug": "it-consulting",
+            "icon": "ShieldCheck",
+            "title": "IT Consulting",
+            "description": "Expert strategic guidance to help you navigate complex technological landscapes and achieve business goals.",
+            "longDescription": "Our consulting services bridge the gap between business vision and technical reality. We help you choose the right tech stack, audit your current systems for efficiency, and design long-term digital strategies that drive revenue.",
+            "featuresList": [
+                "Digital Strategy",
+                "Tech Stack Audit",
+                "System Architecture",
+                "Security Strategy"
+            ],
+            "features": [
+                {
+                    "title": "Digital Transformation",
+                    "desc": "Modernizing business processes through technology."
+                },
+                {
+                    "title": "Tech Stack Audits",
+                    "desc": "Identifying bottlenecks and optimizing software costs."
+                },
+                {
+                    "title": "Cybersecurity Strategy",
+                    "desc": "Comprehensive planning for data protection."
+                },
+                {
+                    "title": "Product Roadmap",
+                    "desc": "Strategic planning for future feature development."
+                }
+            ],
+            "color": "violet",
+            "benefits": [
+                "Clear alignment between business and technology",
+                "Avoidance of costly tech-debt and outdated stacks",
+                "Increased operational efficiency and productivity",
+                "Reduced risk through expert security guidance"
+            ],
+            "techStack": [
+                {
+                    "name": "Agile/Scrum",
+                    "icon": "Workflow"
+                },
+                {
+                    "name": "ITIL",
+                    "icon": "FileText"
+                },
+                {
+                    "name": "Git",
+                    "icon": "/tech_stack/git.svg"
+                },
+                {
+                    "name": "VS Code",
+                    "icon": "/tech_stack/vscode.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "Strategic Discovery",
+                    "desc": "Understanding business goals and challenges."
+                },
+                {
+                    "title": "Gap Analysis",
+                    "desc": "Identifying what's holding your technology back."
+                },
+                {
+                    "title": "Solution Design",
+                    "desc": "Crafting a personalized digital success plan."
+                },
+                {
+                    "title": "Implementation Support",
+                    "desc": "Guiding the team through the transition."
+                }
+            ]
+        },
+        {
+            "slug": "digital-marketing",
+            "icon": "BarChart",
+            "title": "Digital Marketing",
+            "description": "Data-driven marketing strategies to increase your online presence and drive high-quality conversions.",
+            "longDescription": "We don't just generate traffic; we generate growth. Our marketing services cover the entire funnel, from brand awareness through SEO and social media to retention strategies using targeted content and analytics.",
+            "featuresList": [
+                "SEO/SEM",
+                "Social Media",
+                "Content Strategy",
+                "Analytics & Reporting"
+            ],
+            "features": [
+                {
+                    "title": "SEO & Content Marketing",
+                    "desc": "Ranking higher on Google with value-driven content."
+                },
+                {
+                    "title": "Social Media Strategy",
+                    "desc": "Building meaningful relationships with your audience."
+                },
+                {
+                    "title": "PPC & Lead Generation",
+                    "desc": "High-ROI ad campaigns tailored to your niche."
+                },
+                {
+                    "title": "Conversion Optimization",
+                    "desc": "Turning your current traffic into paying customers."
+                }
+            ],
+            "color": "orange",
+            "benefits": [
+                "Measurable ROI through detailed data tracking",
+                "Increased brand visibility in a crowded market",
+                "Higher quality leads that actually convert",
+                "Sustainable long-term growth through SEO"
+            ],
+            "techStack": [
+                {
+                    "name": "Google Analytics",
+                    "icon": "/tech_stack/googleanalytics.svg"
+                },
+                {
+                    "name": "SEMrush",
+                    "icon": "/tech_stack/semrush.svg"
+                },
+                {
+                    "name": "HubSpot",
+                    "icon": "/tech_stack/hubspot.svg"
+                },
+                {
+                    "name": "Meta Ads",
+                    "icon": "/tech_stack/meta.svg"
+                },
+                {
+                    "name": "Ahrefs",
+                    "icon": "/tech_stack/ahrefs.svg"
+                },
+                {
+                    "name": "Hotjar",
+                    "icon": "/tech_stack/hotjar.svg"
+                }
+            ],
+            "process": [
+                {
+                    "title": "Market Research",
+                    "desc": "Analyzing competitors and target audience."
+                },
+                {
+                    "title": "Strategy Creation",
+                    "desc": "Defining channels and messaging for growth."
+                },
+                {
+                    "title": "Campaign Launch",
+                    "desc": "Executing ads and content across platforms."
+                },
+                {
+                    "title": "Data Optimization",
+                    "desc": "Refining campaigns based on live results."
+                }
+            ]
+        },
+        {
+            "slug": "maintenance-support",
+            "icon": "LifeBuoy",
+            "title": "Maintenance & Support",
+            "description": "Dedicated post-launch support and regular maintenance to ensure your digital products stay secure, updated, and performing at their peak.",
+            "longDescription": "Software isn't static. We provide the constant monitoring and regular updates needed to prevent downtime and protect against new security threats, allowing you to focus on running your business while we handle the tech.",
+            "featuresList": [
+                "24/7 Monitoring",
+                "Security Patching",
+                "Performance Tuning",
+                "Regular Updates"
+            ],
+            "features": [
+                {
+                    "title": "24/7 System Monitoring",
+                    "desc": "Real-time oversight of system health and uptime."
+                },
+                {
+                    "title": "Security Updates",
+                    "desc": "Rapid deployment of patches for emerging threats."
+                },
+                {
+                    "title": "Performance Benchmarking",
+                    "desc": "Ensuring the system remains fast as it scales."
+                },
+                {
+                    "title": "Bug Fixing & Support",
+                    "desc": "Quick resolution of any issues that arise."
+                }
+            ],
+            "color": "rose",
+            "benefits": [
+                "Peace of mind with 99.9% uptime guarantees",
+                "Protected brand reputation through high security",
+                "Reduced long-term costs by preventing major failures",
+                "Always-updated features and frameworks"
+            ],
+            "techStack": [
+                {
+                    "name": "Sentry",
+                    "icon": "/tech_stack/sentry.svg"
+                },
+                {
+                    "name": "New Relic",
+                    "icon": "/tech_stack/newrelic.svg"
+                },
+                {
+                    "name": "GitHub Actions",
+                    "icon": "/tech_stack/githubactions.svg"
+                },
+                {
+                    "name": "AWS CloudWatch",
+                    "icon": "Activity"
+                }
+            ],
+            "process": [
+                {
+                    "title": "Monitoring Setup",
+                    "desc": "Installing automated sensors for system status."
+                },
+                {
+                    "title": "Monthly Maintenance",
+                    "desc": "Regular audits and dependency updates."
+                },
+                {
+                    "title": "Incident Response",
+                    "desc": "Defined protocols for rapid issue resolution."
+                },
+                {
+                    "title": "Quarterly Reviews",
+                    "desc": "Strategic check-ins for long-term health."
+                }
+            ]
+        }
+    ]
+}
